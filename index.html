@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Reaction game</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reaction game</title>
+</head>
+<style>
+div{
+    padding-top: 50px;
+}
+</style>
+<body>
+    <div id='play-area' style="height: 85vh; width: 92vw;" >
+        <div id="play-menu">
+            <button id="play-button">Play</button>
+        </div>
+        <img class="target" id="targetRing" src="./images/ring.png" height="50px" width="50px">
+        <div id="score-card">
+            <h2>Score card</h2>
+            <div>Average response time: <p id="avg-res-time"></p> ms</div>
+            <div>Best response time: <p id="best-res-time"></p> ms</div>
+            <button id="replay-button">Replay</button>
+        </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
